@@ -44,6 +44,7 @@
             this.txtIPAddress.Name = "txtIPAddress";
             this.txtIPAddress.Size = new System.Drawing.Size(123, 20);
             this.txtIPAddress.TabIndex = 1;
+            this.txtIPAddress.TextChanged += new System.EventHandler(this.txtIPAddress_TextChanged_1);
             // 
             // txtLong
             // 

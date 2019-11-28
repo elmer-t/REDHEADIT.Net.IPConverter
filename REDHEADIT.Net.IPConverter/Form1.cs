@@ -86,7 +86,5 @@ namespace REDHEADIT.Net.IPConverter
             ipString = ipString.TrimEnd('.');
             return IPAddress.TryParse(ipString, out result) ? result : IPAddress.Parse("0.0.0.0");
         }
-
-        
     }
 }
